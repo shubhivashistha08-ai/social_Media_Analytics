@@ -42,8 +42,8 @@ st.markdown("**Monitoring Nestlé Products Across Twitter & YouTube**")
 st.sidebar.header("⚙️ Configuration")
 
 # API Keys (use st.secrets for deployment)
-TWITTER_BEARER_TOKEN = st.secrets.get("AAAAAAAAAAAAAAAAAAAAAOgkzwEAAAAA7Bl0w5fzki%2FqoA122ExdPWqlgto%3D8p72Oj7SGGPDVdjWMjRLkdQ5cRz7ygdbBRN9u3PPHDf2cT2QmB", "")
-YOUTUBE_API_KEY = st.secrets.get("AIzaSyBtq3YooHnqLRHy02fuzpNgnnQsoW_ST-8", "")
+TWITTER_BEARER_TOKEN = st.secrets.get("<>", "")
+YOUTUBE_API_KEY = st.secrets.get("<>", "")
 
 # Search Configuration
 brand = st.sidebar.text_input("🔍 Brand/Topic", "Nestle", help="Enter brand or topic to monitor")
